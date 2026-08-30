@@ -31,14 +31,49 @@
         a {
             color: #438c54;
         }
+
+        .lang-switcher {
+            display: flex;
+            justify-content: flex-end;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .lang-switcher a {
+            text-decoration: none;
+            color: #222;
+            font-weight: bold;
+            padding: 5px 8px;
+            border-radius: 6px;
+        }
+
+        .lang-switcher a:hover {
+            background-color: #f0f0f0;
+        }
+
+        .lang-switcher .active {
+            color: #438c54;
+        }
     </style>
 </head>
 
 <body>
 
+<div class="lang-switcher">
+    <a href="confidentialite.html"
+       class="active"
+       aria-label="Français">🇫🇷 FR</a>
+
+    <a href="privacy.html"
+       aria-label="English">🇬🇧 EN</a>
+
+    <a href="datenschutz.html"
+       aria-label="Deutsch">🇩🇪 DE</a>
+</div>
+
 <h1>Politique de confidentialité – Congé Aidant</h1>
 
-<p class="date">Dernière mise à jour : 26 août 2026</p>
+<p class="date">Dernière mise à jour : 30 août 2026</p>
 
 <p>
 L'application <strong>Congé Aidant</strong>, éditée par EM-Dvp, a été conçue
